@@ -5,22 +5,21 @@
  <script src="/connect.facebook.net/en_US/all.js"></script>
 </head>
 <body>
-<div id="fb-root">
-<script  type="text/javascript">
-
-      $(document).ready(function() {
-		 
-		FB.api(
-			"a.10153251887998484.1073741834.86858903483",
-			function (response) {
-			  if (response && !response.error) 
-			  {
-				console.log(response);
-			  }
-			}
-		);
-      });
-    </script>
-	 </div> 
+	<div id="fb-root">
+		<script  type="text/javascript">
+		      $(document).ready(function() {
+				 
+				FB.api(
+					"a.10153251887998484.1073741834.86858903483",
+					function (response) {
+					  if (response && !response.error) 
+					  {
+						console.log(response);
+					  }
+					}
+				);
+		      });
+	      	</script>
+	</div> 
 </body>
 </html>
